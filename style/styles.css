@@ -1,0 +1,108 @@
+
+
+/*Style para el NavBar*/
+
+ul {
+    list-style-type: none; /*Elimina las viñetas*/
+    overflow: hidden;
+    background-color: #9CAFAA;
+  }
+  
+  li {
+    /*Sirve para colocar el menú de navegación en línea horizontal*/
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    position: static;
+  }
+  
+  li a:hover {
+    background-color: #D6DAC8;
+    color: rgb(21, 105, 105);
+  }
+
+  input{
+    margin: 10px;
+  }
+
+ /* Estilos para la división en la parte de arriba de la pantalla*/
+        .DivUp{
+          background-color: rgb(156, 175, 170, 0.3);
+          padding: 50px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          position: relative;
+          text-align: center;
+        }
+
+        .DivContent {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          margin-left: 15px;
+          position: relative;
+        }
+
+      
+
+      .text {
+        padding: 2px 3px;
+      }
+      
+      /*Style Form*/
+
+          form{
+            margin-left: 25px;
+          }
+
+          #Message {
+            padding: 50px;
+          }
+
+          button
+          {
+            margin-top: 20px;
+          }
+
+
+      /*Cambio de color en cards de la pàgina home*/
+        .card:hover{
+          background-color:  rgb(156, 175, 170);
+          color: rgb(255, 255, 255);
+        }
+
+
+        /*Cambio de color de hipervínculo*/
+        a:hover{
+          color: rgb(255, 255, 255);
+        }
+
+/*Style para cards en Lifestyle*/
+
+        .card-horizontal {
+            display: flex;
+        }
+
+        /*Hover sobre la carta*/
+        .card-horizontal:hover{
+          background-color: rgb(21, 105, 105, 0.15);
+        }
+
+        .img-square-wrapper{
+          width: 300px;
+          height: 180px;
+        }
+
+        .card-img{
+          width: 300px;
+          height: 180px;
+        }
+
+   .bold-text{
+   font-weight: bolder;
+   }
